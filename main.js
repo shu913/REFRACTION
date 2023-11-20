@@ -28,7 +28,7 @@ class App {
 
   load() {
     return new Promise((resolve) => {
-      const imgPath = "./img/img-6.jpg";
+      const imgPath = "img-6.jpg";
       const loader = new THREE.TextureLoader();
       loader.load(imgPath, (texture) => {
         this.texture = texture;
