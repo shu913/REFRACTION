@@ -1,6 +1,6 @@
 import * as THREE from 'three';
-import { vertexShader } from "./shader/vertex.glsl";
-import { fragmentShader } from "./shader/fragment.glsl";
+import { vertexShader } from "./shader/vertex.js";
+import { fragmentShader } from "./shader/fragment.js";
 
 window.addEventListener("DOMContentLoaded", () => {
   const app = new App();
